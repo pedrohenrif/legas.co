@@ -1,0 +1,153 @@
+body {
+    height: 100%;
+    margin: 0 auto;           /* essa funcao tira a barra de rolagem e deixa a pagina 100% sem margem  */
+}
+
+header{
+    width: 100%;
+}
+ 
+.menu-principal{
+    background-color: black;
+    height: 95px;
+    width: 100%;
+}
+
+.engrenagem{
+    float: right;
+    display: block;
+    margin-right: 250px;
+    padding-top: 19px;
+}
+
+.car-com{
+    float: right;
+    display: block; 
+    margin-right: 15px;
+    padding-top: 19px;
+}
+
+.logo{
+    display: block;
+    margin-left: 225px; 
+    padding-top:  8px;
+    float: left;
+
+}
+
+.logo-letra{
+    display: block;
+    margin-left: 0px;
+    padding-top: 20px;
+    float: left;
+}
+
+main{
+    margin: 0 auto;
+    width: 980px;           /* Esta referenciando o tamanho do menu princiapl, ate aonde pode ser usado */
+    position: relative;
+}
+
+.col-100{
+    width: 100%;
+    position: relative;
+}
+
+.menu{
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+    background-color: black;
+    float: none;
+    border-top: 2px solid white; 
+}
+
+.menu ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 12px;
+    height: 36px;
+}
+
+.artes-destaques{
+    text-align: center;
+}
+
+.menu ul li a { 
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    color: ff01e1;                        /* cor rosa */
+} 
+
+.menu ul li:hover{ 
+    border-bottom: 4px solid #0035b1;    /* dashed, solid,  */  /* rcor azul */
+
+}
+
+.busca{
+    margin-top: 5px ;
+}
+
+.caixa-texto{
+    margin-left:  300px;
+    padding: 5px;
+    border-radius: 8px;                       /* funcao usada para adicionar bordas  */
+    background-image: url(../img/lupa1.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border: 1px solid wheat;
+    
+}
+
+.Pesquisar{
+    background-color: black;
+}
+
+.slider{
+    width: 980px;
+}
+
+.slick-track{
+    width: 980px;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 55px;
+    background-color: transparent;
+    background-image: url('../img/seta-direita.webp');
+    position: absolute;
+    z-index: 9;                                                /* aula 5 , 18 min */
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 55px;
+    background-image: url('../img/seta-esquerda.webp');
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+}
+
+.slick-initialized{
+    overflow: hidden;         /* tirou a barra de rolagem do slider */
+}
+
+.slick-dots li {
+    display:inline-block;
+    position: relative;
+    background-color: #0035b1;
+}
+
+ 

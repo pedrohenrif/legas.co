@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;   
+}
+
+.historia{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    display: inline;
+}
+
+.logo{
+    position: relative;
+}
